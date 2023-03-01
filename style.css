@@ -1,0 +1,154 @@
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: #1c1c1c;
+  line-height: 1.6;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #000;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 40px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+/* Hero section */
+#hero {
+  background-image: url('https://images.unsplash.com/photo-1528822249379-4e42b76c98b7');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-content a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #1c1c1c;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.hero-content a:hover {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+/* About section */
+#about {
+  padding: 100px 0;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content h2 {
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.about-content a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform
+}
